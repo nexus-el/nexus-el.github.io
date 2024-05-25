@@ -4,7 +4,7 @@ body {
   font-size: "25px";
   color: #ffffff;
   text-align: left;
-  background-color: #1c1c1c;
+  background-image: linear-gradient(to bottom right, red, yellow);
   background-repeat: no-repeat;
   background-size: cover;
 }
