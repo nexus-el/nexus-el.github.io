@@ -1,11 +1,11 @@
 
-# Fyre Games
+# Nexus
 
-Welcome to Fyre Games, your best option for unblocked games on the internet.
+Welcome to nexus, your best option for unblocked games on the internet.
 This is the GitHub repo which is used to host the website. If you want to use the
 games on here on your website, please message me on discord and we can talk! `@Fyrekitten`
 
-[![Site](https://fyregames-just.farted.net)
+[![Site](https://working-on-it)
 
 ## Features
 
@@ -18,4 +18,4 @@ wait a few minutes, then go to  https://yourname.github.io/whatever-you-named-th
 YAYYYYY
 
 ## Discord
-i dont feel like making one :)
+[here)](https://discord.gg/3NvyVEHD)
