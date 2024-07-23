@@ -72,13 +72,12 @@
       // Check if user's IP matches any allowed IP
       function checkIP() {
         getUserIP(function(userIP) {
+          var playButton = document.getElementById('play-button');
           if (allowedIPs.includes(userIP)) {
             // User's IP is allowed, enable the link
-            var playButton = document.getElementById('play-button');
             playButton.classList.remove('disabled-link');
           } else {
             // User's IP is not allowed, disable the link
-            var playButton = document.getElementById('play-button');
             playButton.classList.add('disabled-link');
           }
         });
@@ -119,7 +118,7 @@
       </ul>
 
       <p class="center">
-        Ready to play? Click the button below to start!
+        Ready to play? Click the button below to start! <span class="highlight">Note that you must be on a registered school to be able to continue.</span>
       </p>
       
       <p class="center">
