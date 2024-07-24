@@ -5,7 +5,7 @@
 console.warn(
   "%cNote!",
   "color: purple; font-weight: 600; background: yellow; padding: 0 5px; border-radius: 5px",
-  "If you want to add my games to your site, please reach out at my email: echo-the-coder@tuta.io\nPlease do not just add them without asking me first! Thank you!"
+  "HEY!!! NO CHEATING!!!!"
 );
 
 function script(text) {
@@ -29,22 +29,30 @@ if (gaenabled == "false") {
       gtag('js', new Date());
       gtag('config', 'G-98DP5VKS42');`;
   document.head.append(gascript, inlinegascript);
-  script("Injected script 1/3");
+  script("Injected script 1/5");
 }
 
 const tabCloak = document.createElement("script");
 tabCloak.setAttribute("src", "/js/tab_cloak.js");
 document.head.append(tabCloak);
-script("Injected script 2/3");
+script("Injected script 2/5");
 
 const notify = document.createElement("script");
 notify.setAttribute("src", "/js/notify.js");
 document.head.append(notify);
-script("Injected script 3/3");
+script("Injected script 3/5");
 
 const adblock = document.createElement("script");
 adblock.setAttribute("src", "https://fundingchoicesmessages.google.com/i/pub-5756835229788588?ers=1");
 adblock.setAttribute("nonce", "yibq-w_TR5NOCRWsU-VL0Q");
 adblock.setAttribute("async", "");
 document.head.append(adblock);
-script("Injected script 4/4");
+script("Injected script 4/5 (AdBlock)");
+
+// Adding the Optistats counter as the 5th script
+const optistatsCounter = document.createElement("script");
+optistatsCounter.setAttribute("type", "text/javascript");
+optistatsCounter.setAttribute("src", "https://counter8.optistats.ovh/private/counter.js?c=mfahry4szkhu5xnwex56anp1fgz2ghcu&down=async");
+optistatsCounter.setAttribute("async", "");
+document.head.append(optistatsCounter);
+script("Injected script 5/5 (view counter)");
