@@ -59,7 +59,7 @@
   </style>
   <script>
     window.onload = function() {
-      var allowedIPs = ['217.180.219.229', '2.3.4.5', '3.4.5.6']; // Allowed IP addresses
+      var allowedIP = '1.2.3.4'; // Allowed IP address
 
       // Function to fetch user's IP address using a free service (replace with your preferred method)
       function getUserIP(callback) {
@@ -69,16 +69,18 @@
           .catch(error => console.error('Error fetching IP: ', error));
       }
 
-      // Check if user's IP matches any allowed IP
+      // Check if user's IP matches the allowed IP
       function checkIP() {
         getUserIP(function(userIP) {
           var playButton = document.getElementById('play-button');
-          if (allowedIPs.includes(userIP)) {
-            // User's IP is allowed, enable the link
+          if (userIP === allowedIP) {
+            // User's IP is allowed, enable the link and update href
             playButton.classList.remove('disabled-link');
+            playButton.setAttribute('href', 'play.html'); // Update to actual tournament play URL
           } else {
             // User's IP is not allowed, disable the link
             playButton.classList.add('disabled-link');
+            playButton.setAttribute('href', '#'); // Link to nowhere or keep original
           }
         });
       }
@@ -122,7 +124,7 @@
       </p>
       
       <p class="center">
-        <a id="play-button" class="button disabled-link" href="play.html">Launch Tournament</a>
+        <a id="play-button" class="button disabled-link" href="#">Launch Tournament</a>
       </p>
       
       <p class="center">
