@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funny Name Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      font-size: 3em;
+      color: #333;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+    .name-display {
+      font-size: 2em;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Funny Name Generator</h1>
+    <p>DISCLAIMER: These names may be offensive to some people. Do not use these names to offend or blahblah</p>
+    <button class="button" onclick="generateName()">Generate</button>
+    <div class="name-display" id="nameDisplay"></div>
+  </div>
+  <script>
+const names = [
+  "Ben Dover", "Eileen Dover", "Phil McCracken", "Seymour Butz", "Ivana Tinkle", 
+  "Ima Hogg", "Pat Mycrotch", "Amanda Hugnkiss", "Barry McCockiner", "Moe Lester", 
+  "Mike Rotch", "Sasha Heezenme", "Chris P. Bacon", "Gabe Itch", "Wilma Dickfit", 
+  "Haywood Jablome", "Hugh G. Rection", "Al Beback", "Anita Bath", 
+  "Stu Pidasso", "Rick O'Shea", "Sandy Buttcheeks", "Harry P. Ness", 
+  "Willie B. Hardigan", "Holden McGroin", "Cleo Torres", "Anita Nother", "Lando Lakes", 
+  "Wayne Kerr", "Oliver Closeoff", "Patty O'Furniture", "Lee Keyrear", "Maya Buttreeks", 
+  "Carmen Getit", "Seymour Dix", "Tara Dikoff", "Neil Down", "Eaton Beaver", 
+  "Jack Meoff", "Wanda Rinn", "Lynn Gwist", "Buck Nekkid", 
+  "Misty Meanor", "Cole Kutz", "Bill Board", "Jimmy Ginn", "Harry Cox", 
+  "Mitch Cumstein", "Anita Mann", "Eaton Hoggs", "Peter Pants", "Bea O'Problem", 
+  "Don Keedick", "Chuck Wood", "Iona Bigger", "Hugh Jass", "Gaye Butcher", 
+  "Rocky B. Ain't", "I.P. Freely", "Anita Longwang", "Seymour Legs", "Phil Herup", 
+  "Moira Knees", "Hugh Gass", "Rose Bush", "Tyrone Shue", "Al K. Hollick", 
+  "Sheila Taket", "Matt Sterbater", "Drew Peacock", "Aida Nother", "Sal Ami", 
+  "Anita Hardone", "Paul Bearer", "Willie Maker", "Randy Holsum", 
+  "Justin Case", "Connie Lingus", "Peter Dragon", "Joe King", 
+  "Lou Briccant", "Rusty Bedsprings", "Annie Position", "Dewey Cheatam", "Faye Kinnitt", 
+  "C. Howitz", "Lou Natic", "Gene Pool", "Annie Mal", "Jack Knauff", 
+  "Barry D. Hatchet", "Paige Turner", "Sandy Crack", "Dustin T. Hed", "Warren Peace",
+  "Bea Mine", "Polly Ester", "Tess Tickles", "Al Beback", "Ray Gunn"
+];
+    let remainingNames = [...names];
+
+    function getRandomName() {
+      if (remainingNames.length === 0) {
+        remainingNames = [...names];
+      }
+      const randomIndex = Math.floor(Math.random() * remainingNames.length);
+      const name = remainingNames.splice(randomIndex, 1)[0];
+      return name;
+    }
+
+    function generateName() {
+      const display = document.getElementById('nameDisplay');
+      const name = getRandomName();
+      let i = 0;
+      const interval = setInterval(() => {
+        display.textContent = names[i % names.length];
+        i++;
+      }, 60);
+      
+      setTimeout(() => {
+        clearInterval(interval);
+        display.textContent = name;
+      }, 3000);
+    }
+  </script>
+</body>
+</html>
