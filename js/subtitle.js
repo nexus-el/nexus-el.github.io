@@ -13,8 +13,8 @@ say[3] = "Welcome to my rad website";
 say[4] = "Made with HTML!";
 say[5] = "Now with buggy games!";
 say[6] = "You get a cookie!";
-say[7] = "Remember your manners!";
-say[8] = "Dogs are cute";
+say[7] = "Woah!! You've unlocked a secret! This is a 0.3% chance of showing, or you typed gun";
+say[8] = "Dogs are the most shitty animal on the planet.";
 say[9] = "Ok, and I know your address now!";
 say[10] = "Beep boop! Are you a robot?";
 say[11] = "Did you know I have a discord server?";
@@ -25,7 +25,7 @@ say[15] = "Made you look!";
 say[16] = "Never gonna give you up, Never gonna let you down...";
 say[17] = "Redbull gives you wings...";
 say[18] = "What is your highscore on Swerve?";
-say[19] = "Since 2018!";
+say[19] = "Since 2024!";
 say[20] = "Now with 2X more bugs!";
 say[21] = "12345 is not a good password";
 say[22] = "This took to long to make";
@@ -39,10 +39,10 @@ say[29] = "LOL";
 say[30] = "Cold as ice!";
 say[31] = "Why are you looking at me?";
 say[32] = "Made in the US!";
-say[33] = "Made by 3kh0!";
+say[33] = "Made by Nex!";
 say[34] = "Reload the page NOW!";
 say[35] = "Downloading your passwords...";
-say[36] = "Running 3kh0.exe";
+say[36] = "Running Nex.exe";
 say[37] = "WARNING: You may lose braincells if you proceed!";
 say[38] = "Please go away. Thx";
 say[39] = "Made with GitHub!";
@@ -53,8 +53,8 @@ say[43] = "Now with pac-man!";
 say[44] = "Now with polybranch!";
 say[45] = "Now with JavaScript!";
 say[46] = "Do you bite your ice cream?";
-say[47] = "Reddit: u/3kh0_reddit";
-say[48] = "Discord: https://discord.gg/wv6huJAwEv";
+say[47] = "Reddit: BOOMERS!!";
+say[48] = "Discord: https://discord.gg/3NvyVEHD";
 say[49] = "This was not ment to be seen. :o";
 say[50] = "Does anyone know how to stand up?";
 say[51] = "69420";
@@ -65,12 +65,12 @@ say[55] = "Feels bad man.";
 say[56] = "Now with games that are unblocked?";
 say[57] = "Now with great games!";
 say[58] = "How do you play tic-tac-toe?";
-say[59] = "Fortnite is cringe";
+say[59] = "Fortnite is W";
 say[60] = "You got games on your phone?";
 say[61] = "I am not gonna say anything.";
 say[62] = "Now with Minecraft!";
-say[63] = "Welcome to v3.0!";
-say[64] = "Your momma jokes are cringe";
+say[63] = "Welcome to v1.0!";
+say[64] = "Your momma jokes are cringer than your mom";
 say[65] = "Now with a new splash!";
 say[66] = "You just dont get it do you?";
 say[67] = "Powered by hamsters!";
@@ -84,21 +84,21 @@ say[74] = "Your ip is 69.420.69.420";
 say[75] = "he on x-games mode";
 say[76] = "Got to go fast!";
 say[77] = "GAS GAS GAS GOTTA STEP ON THE GAS!";
-say[78] = "3kh0.github.io would like to view your browser history";
+say[78] = "Nex would like to view your browser history";
 say[79] = "For legal reasons, that's a joke!";
 say[80] = "It has been 84 years...";
 say[81] = "Made by Gucci, selling for $69420";
 say[82] = "There is someone looking over your shoulder";
 say[83] = "Electric!";
 say[84] = "How many different ones are there?!?!";
-say[85] = "NERDDDDDDDDDDDDDDDDDD";
+say[85] = "mom can you get me out of the shein factory?";
 say[86] = "My iPad passcode is 563543 btw";
 say[87] = "Get out of my room, I'm not going to let you in!";
 say[88] = "I'm not a robot!";
 say[89] = "I'm not a human!";
 say[90] = "Sponsered by RAID SHADOW LEGENDS!";
 say[91] = "Sponsored by Honey!";
-say[92] = "Sponsored by 3kh0!";
+say[92] = "Sponsored by Nexus!";
 say[93] = "Sponsored by your mom!";
 say[94] = "Sponsored by your dad!";
 say[95] = "Sponsored by your mom's dad!";
@@ -130,7 +130,7 @@ say[121] = "Sponsored by your mom's dad's mom's dad's mom's dad's mom's dad's mo
 say[122] = "Sponsored by your dad's mom's dad's mom's dad's mom's dad's mom's dad's mom's dad's mom's dad's mom's dad!";
 say[123] = "Sponsored by your mom's dad's mom's dad's mom's dad's mom's dad's mom's dad's mom's dad's mom's dad's mom!";
 say[124] = "Piplup is cute";
-say[125] = "3kh0 is a bozo";
+say[125] = "Nexus is a bozo";
 say[126] = "Nothing has been said yet!";
 say[127] = "I'm not a bird!";
 say[128] = "I'm not a fish!";
@@ -143,7 +143,7 @@ say[134] = "I'm not a goat!";
 say[135] = "I'm not a chicken!";
 say[136] = "I'm not a pig!";
 say[137] = "I'm not a Piplup!";
-say[138] = "I'm not a 3kh0!";
+say[138] = "I'm not a NI-!";
 say[139] = "Powered by 128 Gigs of RAM!";
 say[140] = "Powered by 1 Gig of RAM!";
 say[141] = "I want to bite you!";
@@ -200,7 +200,7 @@ say[191] = "Living in space is like living in a hotel.";
 say[192] = "Living in Spain without the S";
 say[193] = "Living in Spain without the S is a bad idea.";
 say[194] = "Shoutout to Piplup!";
-say[195] = "Shoutout to 3kh0!";
+say[195] = "Shoutout to Nexus!";
 say[196] = "Woo! /g/";
 say[197] = "youtube.com/watch?v=dQw4w9WgXcQ";
 say[198] = "youtube.com/c/shadrYT";
@@ -220,7 +220,7 @@ say[211] = "i want to be a goat";
 say[212] = "i want to be a chicken";
 say[213] = "i want to be a pig";
 say[214] = "i want to be a piplup";
-say[215] = "i want to be a 3kh0";
+say[215] = "i want to be a Nexus";
 say[216] = "i want to be a bozo";
 say[217] = "i want to be a gaemer";
 say[218] = "Is this the United Airlines costumer service center?";
@@ -262,12 +262,27 @@ say[263] = "Too cool for school!";
 say[264] = "Pringles";
 say[265] = "Oh heck nah!";
 say[266] = "Hoo hoo hoo!";
-say[267] = "Light mode eww!";
+say[267] = "There are 267 of these that took over an hour to make!!";
 
-// pick a random greeting
+// Function to change subtitle based on input
+function changeSubtitle() {
+  var userInput = document.getElementById("inputField").value.trim().toLowerCase(); // Assuming input is from a text field with id "inputField"
+  var sayWhat;
+  
+  if (userInput === "gun") {
+    sayWhat = say[7]; // Display "Remember your manners!" when "gun" is typed
+  } else {
+    // Pick a random greeting if input is not "gun"
+    var howmany = say.length;
+    var bRand = Math.floor(Math.random() * howmany);
+    sayWhat = say[bRand];
+  }
+  
+  document.getElementById("subtitle").innerText = sayWhat;
+}
+
+// Initial random greeting display
 var howmany = say.length;
-var bRand = 0;
-bRand = Math.random();
-bRand = Math.floor(bRand * howmany);
-sayWhat = say[bRand];
+var bRand = Math.floor(Math.random() * howmany);
+var sayWhat = say[bRand];
 document.getElementById("subtitle").innerText = sayWhat;
