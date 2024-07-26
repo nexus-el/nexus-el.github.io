@@ -1,0 +1,29 @@
+<html>
+  
+<!-- Mirrored from lablockedgames.com/funblocked/modern-blocky-paint/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jun 2024 14:06:31 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Modern Blocky Paint</title>
+    <link rel="shortcut icon" href="https://fyregames-just.farted.net/">
+    <link rel="stylesheet" href="style/style.css">
+	<script src="adinLoader.js"></script>
+	<script src="UnityLoader.js"></script>
+    <script src="UnityProgress.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "build.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 200%; height: 190%; margin: auto;"></div>
+	  <div class="footer">
+	            <div class="webgl-logo"></div>
+	            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+	            <div class="title">Modern Blocky Paint</div>
+	        </div>
+    </div>
+  </body>
+
+<!-- Mirrored from lablockedgames.com/funblocked/modern-blocky-paint/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jun 2024 14:06:32 GMT -->
+</html>
