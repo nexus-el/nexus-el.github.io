@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+<!-- Mirrored from bestofgooglesites.com/games/pixel-combat-2/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jun 2024 19:33:14 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Pixel Combat 2</title>
+    <link rel="shortcut icon" href="style/favicon.html">
+    <link rel="stylesheet" href="style/style.css">
+    <script>
+      window.onload = function() {
+        alert("NOTICE: To use servers, click on a server, wait 15 seconds, and if it doesn't bring you to the server page, try a different server, or reload the webpage. If none of them work, use campaign, this means the server is either down or is blocked."); // Displays the alert when the page is fully loaded
+      };
+      </script>
+	<script src="UnityLoader.js"></script>
+    <script src="UnityProgress.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "build.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 900px; height: 675px;"></div>
+	  <div class="footer">
+	            <div class="webgl-logo"></div>
+	            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+	            <div class="title">Pixel Combat 2</div>
+	        </div>
+    </div>
+  </body>
+
+<!-- Mirrored from bestofgooglesites.com/games/pixel-combat-2/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jun 2024 19:33:14 GMT -->
+</html>
